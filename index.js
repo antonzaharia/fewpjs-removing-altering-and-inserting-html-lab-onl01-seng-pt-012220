@@ -12,5 +12,11 @@ element.appendChild(ul)
 element.className = 'alert';
 ul.removeChild(ul.querySelector('li:nth-child(2)'))
 
-main = document.getElementById('main');
+let main = document.getElementById('main');
 main.remove();
+
+let newHeader = document.createElement('h1');
+newHeader.idName = "victory";
+main.appendChild('newHeader');
+
+
