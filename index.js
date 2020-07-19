@@ -19,5 +19,3 @@ let newHeader = document.createElement('h1');
 newHeader.idName = "victory";
 newHeader.innerHTML = "is the champion";
 main.appendChild('newHeader');
-
-
