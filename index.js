@@ -12,6 +12,6 @@ let main = document.getElementById('main');
 main.remove();
 
 let newHeader = document.createElement('h1');
-newHeader.idName = "victory";
+newHeader.id = 'victory';
 newHeader.innerHTML = "is the champion";
 main.appendChild('newHeader');
