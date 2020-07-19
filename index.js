@@ -8,10 +8,6 @@ for (let i = 0; i < 3; i++) {
   ul.appendChild(li)
 }
 
-element.appendChild(ul)
-element.className = 'alert';
-ul.removeChild(ul.querySelector('li:nth-child(2)'))
-
 let main = document.getElementById('main');
 main.remove();
 
